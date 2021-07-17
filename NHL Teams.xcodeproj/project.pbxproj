@@ -13,6 +13,8 @@
 		3667FA12269B5E8D00DB19AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3667FA10269B5E8C00DB19AE /* Main.storyboard */; };
 		3667FA14269B5E9200DB19AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3667FA13269B5E9200DB19AE /* Assets.xcassets */; };
 		3667FA17269B5E9200DB19AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3667FA15269B5E9200DB19AE /* LaunchScreen.storyboard */; };
+		3667FA1F269B5F8700DB19AE /* DataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667FA1E269B5F8700DB19AE /* DataFile.swift */; };
+		3667FA21269C066400DB19AE /* RosterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667FA20269C066400DB19AE /* RosterTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3667FA13269B5E9200DB19AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3667FA16269B5E9200DB19AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3667FA18269B5E9200DB19AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3667FA1E269B5F8700DB19AE /* DataFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFile.swift; sourceTree = "<group>"; };
+		3667FA20269C066400DB19AE /* RosterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		3667FA09269B5E8C00DB19AE /* NHL Teams */ = {
 			isa = PBXGroup;
 			children = (
+				3667FA1E269B5F8700DB19AE /* DataFile.swift */,
 				3667FA0A269B5E8C00DB19AE /* AppDelegate.swift */,
 				3667FA0C269B5E8C00DB19AE /* SceneDelegate.swift */,
 				3667FA0E269B5E8C00DB19AE /* ViewController.swift */,
 				3667FA10269B5E8C00DB19AE /* Main.storyboard */,
+				3667FA20269C066400DB19AE /* RosterTableViewController.swift */,
 				3667FA13269B5E9200DB19AE /* Assets.xcassets */,
 				3667FA15269B5E9200DB19AE /* LaunchScreen.storyboard */,
 				3667FA18269B5E9200DB19AE /* Info.plist */,
@@ -139,7 +145,9 @@
 			files = (
 				3667FA0F269B5E8C00DB19AE /* ViewController.swift in Sources */,
 				3667FA0B269B5E8C00DB19AE /* AppDelegate.swift in Sources */,
+				3667FA21269C066400DB19AE /* RosterTableViewController.swift in Sources */,
 				3667FA0D269B5E8C00DB19AE /* SceneDelegate.swift in Sources */,
+				3667FA1F269B5F8700DB19AE /* DataFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
