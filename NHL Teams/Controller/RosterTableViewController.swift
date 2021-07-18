@@ -14,8 +14,7 @@ class RosterTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(players.count)
-
+        fetchPlayers()
         tableView.rowHeight = 100
     }
 
@@ -46,9 +45,9 @@ extension RosterTableViewController {
 
                 do {
                     let JSONDescription = try JSONDecoder().decode(FullRoster.self, from: data)
+                    self.players = JSONDescription.roster
                     
                     DispatchQueue.main.async {
-                        self.players = JSONDescription.roster
                         self.tableView.reloadData()
                     }
                     
