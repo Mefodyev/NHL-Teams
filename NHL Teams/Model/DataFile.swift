@@ -7,6 +7,8 @@
 
 import Foundation
 
+let urlOfRoster = "https://statsapi.web.nhl.com/api/v1/teams/15/roster"
+
 struct Person: Decodable {
     let id: Int
     let fullName: String
